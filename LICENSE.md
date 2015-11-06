@@ -1,0 +1,1 @@
+I'm redistributing Qt under its free software license provisions.  [Look it up.](http://doc.qt.io/qt-4.8/lgpl.html)
