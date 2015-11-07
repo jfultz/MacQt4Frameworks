@@ -20,4 +20,10 @@ Bah...I can never remember how to do this.  Some guy's python script which blah-
 
 **Other solution:**
 
-Copy Frameworks/ into your *.app file.  Then `codesign -s identity --deep --force` your entire app bundle.  This is Qt 4.8.6, as distributed by HomeBrew, with default options.
+Run `macdeployqt` as usual.  Remove Frameworks/ directory and replace with this version of Frameworks.  Then `codesign -s identity --deep --force` your entire app bundle.  This is Qt 4.8.6, as distributed by HomeBrew, with default options.
+
+**Trivia:**
+
+Apparently still an active bug in Qt5!
+
+https://bugreports.qt.io/browse/QTBUG-32896
